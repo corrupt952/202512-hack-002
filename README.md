@@ -15,7 +15,8 @@ A cockroach simulation that runs on your macOS desktop. Based on scientific rese
 
 ### Prerequisites
 
-- macOS 11.0 or later (Apple Silicon)
+- macOS 15.0 (Sequoia) or later
+- Apple Silicon (M1/M2/M3)
 - Xcode Command Line Tools
 
 ### Installation

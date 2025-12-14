@@ -1,0 +1,29 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: macos-14  # Apple Silicon runner
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build
+        run: |
+          swiftc -O -parse-as-library -target arm64-apple-macosx15.0 GokiRunMetal.swift -o GokiRunMetal
+
+      - name: Create release archive
+        run: |
+          zip -j GokiRunMetal-${{ github.ref_name }}-arm64.zip GokiRunMetal README.md
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: GokiRunMetal-${{ github.ref_name }}-arm64.zip
+          generate_release_notes: true
