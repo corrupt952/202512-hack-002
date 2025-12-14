@@ -2,6 +2,10 @@
 
 A cockroach simulation that runs on your macOS desktop. Based on scientific research of real cockroach escape behavior.
 
+## Demo
+
+[![GokiRun Demo](https://img.youtube.com/vi/sET9aH3enoA/maxresdefault.jpg)](https://youtu.be/sET9aH3enoA)
+
 ## Features
 
 - Realistic escape behavior based on published research (Domenici et al., Camhi & Nolen)
