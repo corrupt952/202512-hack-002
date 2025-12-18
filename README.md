@@ -68,10 +68,10 @@ The app requires accessibility permissions for global mouse monitoring. Grant ac
 
 ## Research references
 
-- Domenici et al. (2008) - Preferred escape trajectories
-- Domenici et al. (2010) - Away vs towards responses
-- Camhi & Nolen (1981) - Two-stage threat response
-- Daltorio et al. (2013) - RAMBLER exploration algorithm
+- [Domenici et al. (2008)](https://doi.org/10.1016/j.cub.2008.09.062) - Preferred escape trajectories
+- [Domenici et al. (2009)](https://doi.org/10.4161/cib.2.6.9408) - Away vs towards responses
+- [Camhi & Nolen (1981)](https://doi.org/10.1007/BF00605446) - Two-stage threat response
+- [Laurent Salazar et al. (2018)](https://doi.org/10.1093/jisesa/iex108) - Thigmotaxis (wall-following behavior)
 
 ## License
 
